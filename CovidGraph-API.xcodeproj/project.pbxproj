@@ -13,6 +13,7 @@
 		047EEB5427FC3481002E0825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047EEB5227FC3481002E0825 /* Main.storyboard */; };
 		047EEB5627FC3482002E0825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047EEB5527FC3482002E0825 /* Assets.xcassets */; };
 		047EEB5927FC3482002E0825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047EEB5727FC3482002E0825 /* LaunchScreen.storyboard */; };
+		047EEB6127FC4D50002E0825 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047EEB6027FC4D50002E0825 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		047EEB5527FC3482002E0825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047EEB5827FC3482002E0825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047EEB5A27FC3482002E0825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047EEB6027FC4D50002E0825 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				047EEB4E27FC3481002E0825 /* SceneDelegate.swift */,
 				047EEB5027FC3481002E0825 /* ViewController.swift */,
 				047EEB5227FC3481002E0825 /* Main.storyboard */,
+				047EEB6027FC4D50002E0825 /* APIService.swift */,
 				047EEB5527FC3482002E0825 /* Assets.xcassets */,
 				047EEB5727FC3482002E0825 /* LaunchScreen.storyboard */,
 				047EEB5A27FC3482002E0825 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				047EEB5127FC3481002E0825 /* ViewController.swift in Sources */,
 				047EEB4D27FC3481002E0825 /* AppDelegate.swift in Sources */,
+				047EEB6127FC4D50002E0825 /* APIService.swift in Sources */,
 				047EEB4F27FC3481002E0825 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
