@@ -15,6 +15,7 @@
 		047EEB5927FC3482002E0825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047EEB5727FC3482002E0825 /* LaunchScreen.storyboard */; };
 		047EEB6127FC4D50002E0825 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047EEB6027FC4D50002E0825 /* APIService.swift */; };
 		047EEB6327FECADA002E0825 /* CityCovidOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047EEB6227FECADA002E0825 /* CityCovidOverview.swift */; };
+		047EEB6727FECCB6002E0825 /* CovidDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047EEB6627FECCB6002E0825 /* CovidDetailViewController.swift */; };
 		31890D8AFB270DD834AB3264 /* Pods_CovidGraph_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4457BA783F071BDC49858F86 /* Pods_CovidGraph_API.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		047EEB5A27FC3482002E0825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		047EEB6027FC4D50002E0825 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		047EEB6227FECADA002E0825 /* CityCovidOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCovidOverview.swift; sourceTree = "<group>"; };
+		047EEB6627FECCB6002E0825 /* CovidDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDetailViewController.swift; sourceTree = "<group>"; };
 		3D48A2B45B53D4F291E95229 /* Pods-CovidGraph-API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidGraph-API.debug.xcconfig"; path = "Target Support Files/Pods-CovidGraph-API/Pods-CovidGraph-API.debug.xcconfig"; sourceTree = "<group>"; };
 		4457BA783F071BDC49858F86 /* Pods_CovidGraph_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovidGraph_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9282C01B241547D5640E782F /* Pods-CovidGraph-API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovidGraph-API.release.xcconfig"; path = "Target Support Files/Pods-CovidGraph-API/Pods-CovidGraph-API.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				047EEB4E27FC3481002E0825 /* SceneDelegate.swift */,
 				047EEB5027FC3481002E0825 /* ViewController.swift */,
 				047EEB5227FC3481002E0825 /* Main.storyboard */,
+				047EEB6627FECCB6002E0825 /* CovidDetailViewController.swift */,
 				047EEB6027FC4D50002E0825 /* APIService.swift */,
 				047EEB5527FC3482002E0825 /* Assets.xcassets */,
 				047EEB5727FC3482002E0825 /* LaunchScreen.storyboard */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047EEB5127FC3481002E0825 /* ViewController.swift in Sources */,
+				047EEB6727FECCB6002E0825 /* CovidDetailViewController.swift in Sources */,
 				047EEB4D27FC3481002E0825 /* AppDelegate.swift in Sources */,
 				047EEB6127FC4D50002E0825 /* APIService.swift in Sources */,
 				047EEB6327FECADA002E0825 /* CityCovidOverview.swift in Sources */,
